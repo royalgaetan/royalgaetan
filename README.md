@@ -4,7 +4,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/828/1*ZSVmWGcc1weENb0ShawWxw.gif">
 
-- 🔭 I’m currently working on **a flutter project**
+- 🔭 I’m currently working on **a flutter project: a social network**
 
 - 🌱 I’m currently learning **Blockchain with Solidity**
 
