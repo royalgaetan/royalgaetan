@@ -1,5 +1,8 @@
+[![MasterHead](https://cdn.acodez.in/wp-content/uploads/2018/05/Banner-image-4.png)
 <h1 align="center">Hi 👋, I'm Royal G</h1>
 <h3 align="center">I’m interested in Mobile Dev, Dapps Development, and FullStack Web Development</h3>
+
+<img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/828/1*ZSVmWGcc1weENb0ShawWxw.gif">
 
 - 🔭 I’m currently working on **a flutter project**
 
