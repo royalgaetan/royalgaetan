@@ -1,4 +1,4 @@
-![MasterHead](https://cdn.acodez.in/wp-content/uploads/2018/05/Banner-image-4.png)
+![MasterHead](https://pbs.twimg.com/profile_banners/1425010971865669644/1674335596/1080x360)
 <h1 align="center">Hi 👋, I'm Royal G</h1>
 <h3 align="center">I’m interested in Mobile Dev, Dapps Development, and FullStack Web Development</h3>
 
