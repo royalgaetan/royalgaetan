@@ -4,7 +4,7 @@
 
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/828/1*ZSVmWGcc1weENb0ShawWxw.gif">
 
-- 🔭 I’m currently working on **a flutter project: a social network**
+- 🔭 I’m currently working on **a flutter project: a social network called Wesh**
 
 - 🌱 I’m currently learning **Blockchain with Solidity**
 
@@ -13,6 +13,12 @@
 - 📫 How to reach me ? **gaetanroyalpro@gmail.com**
 
 - ⚡ Fun fact **I think I'm cool**
+
+## Last projects
+
+## Watch Wot
+
+![App Screenshot](https://us-ms.gr-cdn.com/getresponse-CwX7D/photos/7a6c0569-daff-4c06-ae3c-f2e748edd7f6.png)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
