@@ -16,20 +16,19 @@
 
 ## Last projects
 
-
 <h1 align="left">Wesh</h1>
-<h3 align="left">🔗 Lien: [Wesh.com](https://wesh.grwebsite.com/)</h3>
+<h5 align="left">🔗 Lien: <a href="https://wesh.grwebsite.com/">Wesh</a></h5>
 
 ![App Screenshot](https://us-ms.gr-cdn.com/getresponse-tubnk/photos/71ad93cc-8833-469b-b99c-374e87060417.png)
 
 
 <h1 align="left">Pastry</h1>
-<h3 align="left">🔗 Lien: [Pastry](https://github.com/royalgaetan/pastry_app)</h3>
+<h5 align="left">🔗 Lien: <a href="https://github.com/royalgaetan/pastry_app">Pastry</a></h5>
 
 ![App Screenshot](https://us-ms.gr-cdn.com/getresponse-CwX7D/photos/e7e457f9-7489-49be-bc41-3d1d82ed67dc.png)
 
 <h1 align="left">Watch Wot</h1>
-<h3 align="left">🔗 Lien: [Watch Wot](https://github.com/royalgaetan/watchwot)</h3>
+<h5 align="left">🔗 Lien: <a href="https://github.com/royalgaetan/watchwot">Watch Wot</a></h5>
 ![App Screenshot](https://us-ms.gr-cdn.com/getresponse-CwX7D/photos/7a6c0569-daff-4c06-ae3c-f2e748edd7f6.png)
 
 <h3 align="left">Connect with me:</h3>
