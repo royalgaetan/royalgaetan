@@ -20,20 +20,20 @@
 ## Last projects
 
 <h1 align="left">Wesh</h1>
-<h5 align="left">🔗 Link: <a href="https://wesh.grwebsite.com/">Wesh</a></h5>
+<h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/wesh">Wesh</a></h5>
 
-![App Screenshot](https://us-ms.gr-cdn.com/getresponse-tubnk/photos/71ad93cc-8833-469b-b99c-374e87060417.png)
+<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Multiple-Screen-Wesh.png" height="500" />
 
 
 <h1 align="left">Pastry</h1>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/pastry_app">Pastry</a></h5>
 
-![App Screenshot](https://us-ms.gr-cdn.com/getresponse-CwX7D/photos/e7e457f9-7489-49be-bc41-3d1d82ed67dc.png)
+<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Pastry.png" height="500" />
 
 <h1 align="left">Watch Wot</h1>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/watchwot">Watch Wot</a></h5>
 
-![App Screenshot](https://us-ms.gr-cdn.com/getresponse-CwX7D/photos/7a6c0569-daff-4c06-ae3c-f2e748edd7f6.png)
+<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="500" />
 
 <br>
 <h3 align="center">Connect with me:</h3>
