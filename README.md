@@ -5,8 +5,11 @@
 ### <p align="center">I'm <b>ℝ𝕠𝕪𝕒𝕝 𝔾𝔸𝔼𝕋𝔸ℕ</b></p> 
 #### <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 
-<img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
-
+<img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="250"/>
+ <br>
+ <br>
+ <br>
+ 
 * I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b>
 * I’m currently learning <b>Software architecture and NLP (Natural Language Processing) 🌱</b>
 * I’m open to collaborating on <b>Website or Mobile projects 🤝</b>
