@@ -1,6 +1,6 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
 
-<h4 align="center">Hi👋, I'm <b>Royal GAETAN</b></h4>
+<h3 align="center">Hi👋, I'm <b>Royal GAETAN</b></h3>
 <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 <br>
 
@@ -16,8 +16,9 @@
       <br><br>
 
 <br>
+
+## Wondering about my tech stack?
 <br>
-<h3 align="left">Wondering about my tech stack?</h3>
 <p align="left">Frameworks & Libraries</p>
 <p align="left">  
  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> 
@@ -43,30 +44,34 @@
 
 ## Last projects
 
-<h1 align="left">Wesh</h1>
+### Wesh
+<br>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/wesh">Wesh</a></h5>
 
-<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Multiple-Screen-Wesh.png" height="500" />
+<img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Multiple-Screen-Wesh.png" height="500" />
 
 
-<h1 align="left">Pastry</h1>
+### Pastry
+<br>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/pastry_app">Pastry</a></h5>
 
-<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Pastry.png" height="500" />
+<img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Pastry.png" height="400" />
 
-<h1 align="left">Watch Wot</h1>
+### Watch Wot
+<br>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/watchwot">Watch Wot</a></h5>
 
-<img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="500" />
+<img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="400" />
 
 <br>
 
+## Stats
 <br>
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=royalgaetan&show_icons=true&locale=en&layout=compact" alt="royalgaetan" /><img align="center" src="https://github-readme-stats.vercel.app/api?username=royalgaetan&show_icons=true&locale=en" alt="royalgaetan" /><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=royalgaetan&" alt="royalgaetan" /></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=royalgaetan&" alt="royalgaetan" /></p>
 
 
 
-<h3 align="left">Connect with me:</h3>
+## Connect with me
 <br>
 <p align="left">
 <a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
