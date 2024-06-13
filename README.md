@@ -1,8 +1,9 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
 
-<h1 align="center"><h4 style="color:blue">Hi 👋</h4> I'm <b>Royal GAETAN</b></h1>
+<h4 align="center">Hi👋</h4>
+<h1 align="center">I'm <b>Royal GAETAN</b></h1>
  <br>
-<h3 align="center">Focus on Mobile & FullStack Web Development</h3>
+<h3 align="center">a Mobile & FullStack Web Developer</h3>
 
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
@@ -13,7 +14,7 @@
       <br><br>
       - 🤝 I’m open to collaborating on <b>Website or Mobile projects</b>
       <br><br>
-      - 📩 How to reach me? Write here <b><a href="emailto:gaetanroyalpro@gmail.com">gaetanroyalpro@gmail.com</a></b>
+      - 📩 How to reach me? Write here <b>gaetanroyalpro@gmail.com</b>
       <br><br>
 
 <br>
