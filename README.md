@@ -10,10 +10,10 @@
  <br>
  <br>
  
-* I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b> <br>
-* I’m currently learning <b>Software architecture and NLP (Natural Language Processing) 🌱</b> <br>
-* I’m open to collaborating on <b>Website or Mobile projects 🤝</b> <br>
-* How to reach me? Write here <b>gaetanroyalpro@gmail.com 📩</b> <br>
+* I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b> <br><br>
+* I’m currently learning <b>Software architecture and NLP (Natural Language Processing) 🌱</b> <br><br>
+* I’m open to collaborating on <b>Website or Mobile projects 🤝</b> <br><br>
+* How to reach me? Write here <b>gaetanroyalpro@gmail.com 📩</b> <br><br>
 
  <br>
  <br>
