@@ -1,7 +1,7 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner-1.png)
 
 <p align="center">Hi👋</p>
-<h2 align="center">I'm <b>Royal GAETAN</b><h2>
+<h2 align="center">I'm <b>Royal GAETAN</b></h2>
 <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
@@ -32,7 +32,7 @@
 </p>
 <br>
 
-<p align="left">*Languages & DB*</p>
+<p align="left">Languages & DB</p>
 <p align="left"> 
  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -63,13 +63,12 @@
 <img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="400" />
 
 <br>
-
 ## Stats
 <br>
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=royalgaetan&" alt="royalgaetan" /></p>
 
 
-
+<br>
 ## Connect with me
 <p align="left">
 <a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
