@@ -3,7 +3,7 @@
 <h1 align="center">I'm Royal G</h1>
 <h3 align="center">Focus on Mobile & FullStack Web Development</h3>
 
-<img src="https://tenor.com/bM2a1.gif" />
+![Coder](https://tenor.com/bM2a1.gif)
 
 - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**
 
