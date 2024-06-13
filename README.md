@@ -1,25 +1,25 @@
-![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
+![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner-1.png)
 
-<h3 align="center">Hi👋, I'm <b>Royal GAETAN</b></h3>
-<p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
-<br>
+# <p align="center">Hi👋, I'm <b>Royal GAETAN</b><p>
+## <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
  <br>
-      - 🔭 I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io</b>
+ <br>
+      ▶ 🔭 I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io</b>
       <br><br>
-      - 🌱 I’m currently learning <b>Software architecture and NLP (Natural Language Processing)</b>
+      ▶ 🌱 I’m currently learning <b>Software architecture and NLP (Natural Language Processing)</b>
       <br><br>
-      - 🤝 I’m open to collaborating on <b>Website or Mobile projects</b>
+      ▶ 🤝 I’m open to collaborating on <b>Website or Mobile projects</b>
       <br><br>
-      - 📩 How to reach me? Write here <b>gaetanroyalpro@gmail.com</b>
+      ▶ 📩 How to reach me? Write here <b>gaetanroyalpro@gmail.com</b>
       <br><br>
 
 <br>
 
 ## Wondering about my tech stack?
 <br>
-<p align="left">Frameworks & Libraries</p>
+_Frameworks & Libraries_
 <p align="left">  
  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> 
  <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> 
@@ -30,7 +30,7 @@
 </p>
 <br>
 
-<p align="left">Languages & DB</p>
+<p align="left">*Languages & DB*</p>
 <p align="left"> 
  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -45,20 +45,17 @@
 ## Last projects
 
 ### Wesh
-<br>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/wesh">Wesh</a></h5>
 
-<img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Multiple-Screen-Wesh.png" height="500" />
+<img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Multiple-Screen-Wesh.png" height="400" />
 
 
-### Pastry
-<br>
+### 🌭Pastry 😋🥪
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/pastry_app">Pastry</a></h5>
 
 <img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Pastry.png" height="400" />
 
 ### Watch Wot
-<br>
 <h5 align="left">🔗 Link: <a href="https://github.com/royalgaetan/watchwot">Watch Wot</a></h5>
 
 <img align="center" src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="400" />
