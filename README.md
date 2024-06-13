@@ -1,25 +1,25 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
 
 <h4 align="center">Hi👋</h4>
-<h2 align="center">I'm <b>Royal GAETAN</b></h2>
+<p align="center">I'm <b>Royal GAETAN</b></p>
 <p align="center">✨a Mobile & FullStack Web Developer✨</p>
 <br>
 
 <h3 align="center">Wondering about my tech stack?</h3>
 <br>
 
-Frameworks:
+<p align="center">Frameworks & Libraries</p>
 <p align="center">  
  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> 
  <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> 
  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> 
- 
+ <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/>
 </p>
 <br>
 
-Languages, libraries & DB:
+<p align="center">Languages & DB</p>
 <p>
  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -27,7 +27,6 @@ Languages, libraries & DB:
  <img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"/>
  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
  <img src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black"/></p>
- <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/>
 <br>
 
 
@@ -67,8 +66,8 @@ Languages, libraries & DB:
 <h3 align="center">Connect with me:</h3>
 <br>
 <p align="center">
-<a href="https://twitter.com/royalgaetan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="royalgaetan" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/royalg" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="royalg" height="30" width="40" /></a>
+<a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
+<a href="https://linkedin.com/in/royalg" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="royalg LinkedIn Profile"/></a>
 </p>
 
 <br>
