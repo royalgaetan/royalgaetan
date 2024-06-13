@@ -1,4 +1,4 @@
-![MasterHead](https://pbs.twimg.com/profile_banners/1425010971865669644/1674335596/1080x360)
+![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
 <h1 align="center">Hi 👋, I'm Royal G</h1>
 <h3 align="center">I’m interested in Mobile Dev, Dapps Development, and FullStack Web Development</h3>
 
