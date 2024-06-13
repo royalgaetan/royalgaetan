@@ -3,9 +3,10 @@
 <p align="center">Hi👋</p>
 
 ### <p align="center">I'm <b>ℝ𝕠𝕪𝕒𝕝 𝔾𝔸𝔼𝕋𝔸ℕ</b></p> 
-#### <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 
-<img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="290"/>
+
+## a Mobile & FullStack Web Developer 🧑‍💻⚡
+<img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
  <br>
  <br>
  <br>
