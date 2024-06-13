@@ -11,7 +11,7 @@
     </p>
 
 <div align="right">
-   <img src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300" />
+   <img src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" />
 </div>
 
 <br>
