@@ -3,13 +3,11 @@
 <p align="center">Hi👋</p>
 
 ### <p align="center">I'm <b>ℝ𝕠𝕪𝕒𝕝 𝔾𝔸𝔼𝕋𝔸ℕ</b></p> 
-<p align="center">⚡a Mobile & FullStack Web Developer 🧑‍💻</p>
+<p align="center">⚡a Mobile & FullStack Web Developer 🧑‍💻</p><br>
 
 
 ## What's happening
 <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
- <br>
- <br>
  <br>
  
 * I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b> <br><br>
