@@ -3,7 +3,7 @@
 <h4 align="center">Hi👋</h4>
 <h1 align="center">I'm <b>Royal GAETAN</b></h1>
  <br>
-<h3 align="center">a Mobile & FullStack Web Developer</h3>
+<h3 align="center">✨a Mobile & FullStack Web Developer✨</h3>
 
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
