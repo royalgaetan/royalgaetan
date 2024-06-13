@@ -3,7 +3,7 @@
 <h1 align="center">I'm Royal G</h1>
 <h3 align="center">Focus on Mobile & FullStack Web Development</h3>
 
-![Coder](http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif)
+<img src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="200" />
 
 - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**
 
