@@ -1,9 +1,10 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
-<h4 align="center">Hi 👋</h4>
+<h4 align="center" style="color:orange;margin-bottom:10px">Hi 👋</h4>
 <h1 align="center">I'm Royal G</h1>
 <h3 align="center">Focus on Mobile & FullStack Web Development</h3>
-
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/828/1*ZSVmWGcc1weENb0ShawWxw.gif">
+<br>
+<br>
+<img align="right" alt="Coding" width="400" src="https://tenor.com/bM2a1.gif">
 
 - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**
 
