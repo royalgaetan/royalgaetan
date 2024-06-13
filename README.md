@@ -1,18 +1,17 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner.png)
-<h1 align="center">Hi 👋, I'm Royal G</h1>
-<h3 align="center">I’m interested in Mobile Dev, Dapps Development, and FullStack Web Development</h3>
+<h4 align="center">Hi 👋</h4>
+<h1 align="center">I'm Royal G</h1>
+<h3 align="center">Focus on Mobile & FullStack Web Development</h3>
 
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/828/1*ZSVmWGcc1weENb0ShawWxw.gif">
 
-- 🔭 I’m currently working on **a flutter project: a social network called Wesh**
+- 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**
 
-- 🌱 I’m currently learning **Blockchain with Solidity**
+- 🌱 I’m currently learning **Software architecture and NLP (Natural Language Processing)**
 
-- 👯 I’m looking to collaborate on **any Dapps, Website or Mobile project**
+- 👯 I’m open to collaborate on **Website or Mobile projects**
 
-- 📫 How to reach me ? **gaetanroyalpro@gmail.com**
-
-- ⚡ Fun fact **I think I'm cool**
+- 📫 How to reach me? Write here **gaetanroyalpro@gmail.com**
 
 <br>
 
