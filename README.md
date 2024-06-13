@@ -4,8 +4,6 @@
 <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 <br>
 
-<h3 align="center">Wondering about my tech stack?</h3>
-
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
  <br>
       - 🔭 I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io</b>
@@ -18,8 +16,10 @@
       <br><br>
 
 <br>
-<p align="center">Frameworks & Libraries</p>
-<p align="center">  
+<br>
+<h3 align="left">Wondering about my tech stack?</h3>
+<p align="left">Frameworks & Libraries</p>
+<p align="left">  
  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> 
  <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> 
  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
@@ -29,8 +29,8 @@
 </p>
 <br>
 
-<p align="center">Languages & DB</p>
-<p align="center"> 
+<p align="left">Languages & DB</p>
+<p align="left"> 
  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
@@ -60,20 +60,18 @@
 <img src="http://bigagencytravel.com/wp-content/uploads/2024/05/Mockup-Multi-Screen-Watch-Wot.png" height="500" />
 
 <br>
-<h3 align="center">Connect with me:</h3>
+
 <br>
-<p align="center">
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=royalgaetan&show_icons=true&locale=en&layout=compact" alt="royalgaetan" /><img align="center" src="https://github-readme-stats.vercel.app/api?username=royalgaetan&show_icons=true&locale=en" alt="royalgaetan" /><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=royalgaetan&" alt="royalgaetan" /></p>
+
+
+
+<h3 align="left">Connect with me:</h3>
+<br>
+<p align="left">
 <a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
 <a href="https://linkedin.com/in/royalg" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="royalg LinkedIn Profile"/></a>
 </p>
-
-<br>
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=royalgaetan&show_icons=true&locale=en&layout=compact" alt="royalgaetan" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=royalgaetan&show_icons=true&locale=en" alt="royalgaetan" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=royalgaetan&" alt="royalgaetan" /></p>
-
 
 <!---
 royalgaetan/royalgaetan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
