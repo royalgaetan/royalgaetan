@@ -9,15 +9,10 @@
  <br>
  <br>
  <br>
-      + I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b>
-      <br><br>
-      + I’m currently learning <b>Software architecture and NLP (Natural Language Processing) 🌱</b>
-      <br><br>
-      + I’m open to collaborating on <b>Website or Mobile projects 🤝</b>
-      <br><br>
-      + How to reach me? Write here <b>gaetanroyalpro@gmail.com 📩</b>
-      <br><br>
-
++ I’m currently working on <b>All-in-One SEO and SMO toolkit: lakissa.io 💎</b>
++ I’m currently learning <b>Software architecture and NLP (Natural Language Processing) 🌱</b>
++ I’m open to collaborating on <b>Website or Mobile projects 🤝</b>
++ How to reach me? Write here <b>gaetanroyalpro@gmail.com 📩</b>
 <br>
 <br>
 
@@ -73,7 +68,7 @@
 
 <br>
 
-## Connect with me
+## See more of my works and updates
 <p align="left">
 <a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
 <a href="https://linkedin.com/in/royalg" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="royalg LinkedIn Profile"/></a>
