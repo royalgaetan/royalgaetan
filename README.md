@@ -6,10 +6,14 @@
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
  <br>
-      - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**<br><br>
-      - 🌱 I’m currently learning **Software architecture and NLP (Natural Language Processing)**<br><br>
-      - 🤝 I’m open to collaborating on **Website or Mobile projects**<br><br>
-      - 📩 How to reach me? Write here **gaetanroyalpro@gmail.com**</p><br><br>
+      - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**
+      <br><br>
+      - 🌱 I’m currently learning **Software architecture and NLP (Natural Language Processing)**
+      <br><br>
+      - 🤝 I’m open to collaborating on **Website or Mobile projects**
+      <br><br>
+      - 📩 How to reach me? Write here **<a href="emailto:gaetanroyalpro@gmail.com">gaetanroyalpro@gmail.com**</a></p>
+      <br><br>
 
 <br>
 
