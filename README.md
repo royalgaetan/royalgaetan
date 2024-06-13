@@ -2,17 +2,13 @@
 <h4 align="center" style="color:blue;margin-bottom:10px">Hi 👋</h4>
 <h1 align="center">I'm Royal G</h1>
 <h3 align="center">Focus on Mobile & FullStack Web Development</h3>
+<br>
 
-   <p align="left">
+ <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" />
       - 🔭 I’m currently working on **All-in-One SEO and SMO toolkit: lakissa.io**<br><br>
       - 🌱 I’m currently learning **Software architecture and NLP (Natural Language Processing)**<br><br>
       - 🤝 I’m open to collaborating on **Website or Mobile projects**<br><br>
       - 📩 How to reach me? Write here **gaetanroyalpro@gmail.com**</p><br><br>
-    </p>
-
-<div align="right">
-   <img src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" />
-</div>
 
 <br>
 
