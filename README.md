@@ -72,8 +72,8 @@
 
 ## See more of my works and updates
 <p align="left">
-<a href="royalgaetan.vercel.app" target="blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
-<a href="https://linkedin.com/in/royalg" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="royalg LinkedIn Profile"/></a>
+<a href="https://royalgaetan.vercel.app" target="_blank"><img align="center" src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="royalgaetan portfolio"/></a>
+<a href="https://linkedin.com/in/royalg" target="_blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="royalg LinkedIn Profile"/></a>
 </p>
 <br>
 
