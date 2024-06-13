@@ -1,8 +1,9 @@
 ![MasterHead](http://bigagencytravel.com/wp-content/uploads/2024/06/Github-Banner-1.png)
 
 <p align="center">Hi👋</p>
+
 ### <p align="center">I'm <b>Royal GAETAN</b></p>
-<p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
+#### <p align="center">🧑‍💻 a Mobile & FullStack Web Developer 🧑‍💻</p>
 
  <img align="right" src="http://bigagencytravel.com/wp-content/uploads/2024/06/xero-code.gif" width="300"/>
  <br>
