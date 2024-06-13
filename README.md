@@ -2,13 +2,13 @@
 
 <h4 align="center">Hi👋</h4>
 <h1 align="center">I'm <b>Royal GAETAN</b></h1>
-<h3 align="center">✨a Mobile & FullStack Web Developer✨</h3>
+<p align="center">✨a Mobile & FullStack Web Developer✨</p>
 <br>
 
 <h3 align="center">Wondering about my tech stack?</h3>
 <br>
 
-<p align="center">  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> </p>
+<p align="center">  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" /> <img src="https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/> </p>
 <br>
 
 
