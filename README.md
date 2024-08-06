@@ -1,4 +1,4 @@
-## <center>Hi, <br>I'm Royal GAETAN<center>
+## Hi, <br>I'm Royal GAETAN
 <br>
-### <center>Hi, <br>I'm a Mobile and Web Developer<center>
+### I'm a Mobile and Web Developer
 
