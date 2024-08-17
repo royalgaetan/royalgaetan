@@ -52,7 +52,7 @@ const ProjectFeaturePreview = ({
               </motion.div>
             ))}
 
-          {/* if Feature has (media to preview) && has Content: display its content it only on large screens */}
+          {/* if Feature has (media to preview) && has Content: display its content only on large screens */}
           {featureSelected.previewType === "image" ||
             (featureSelected.previewType === "video" && (
               <motion.div

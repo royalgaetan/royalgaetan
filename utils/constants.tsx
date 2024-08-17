@@ -807,7 +807,7 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Get answers and support. The Help Center is here to assist you with any issues.",
+            "Get answers and support. The Help Center will assist you with any issues",
         },
       ],
     },
