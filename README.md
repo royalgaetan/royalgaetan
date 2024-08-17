@@ -1,3 +1,3 @@
-# Hi, I'm Royal GAETAN
-<br><br>
-# A Mobile and Web Fullstack Developer
+# Hi 👋
+## I'm Royal GAETAN
+## A Mobile and Web Fullstack Developer
