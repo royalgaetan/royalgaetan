@@ -16,6 +16,14 @@ export const FooterSection = () => {
         >
           Icons8
         </a>
+        {", "}
+        <a
+          href="https://www.vecteezy.com/free-vector/african-landscape-silhouette"
+          target="_blank"
+          className="hover:opacity-80 text-slate-300"
+        >
+          Vecteezy
+        </a>
       </p>
     </footer>
   );

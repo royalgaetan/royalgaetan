@@ -16,16 +16,12 @@ export const navbarElementsList: NavbarElementType[] = [
     hash: "#home",
   },
   {
-    title: "About",
-    hash: "#about",
-  },
-  {
     title: "Portfolio",
     hash: "#portfolio",
   },
   {
-    title: "Experience",
-    hash: "#experience",
+    title: "About Me",
+    hash: "#about",
   },
   {
     title: "Let's talk?",
@@ -37,10 +33,19 @@ export const mainProjects: ProjectType[] = [
   {
     title: "Wesh",
     link: "/wesh",
+    accentColor: "#E02F66",
+    secondaryColor: "#f3acc2",
     isLinkBlankTarget: false,
     subTitle:
       "Never miss important events like birthdays and meetings with Wesh, the app that keeps you connected",
     coverPath: "/assets/wesh mockup.png",
+    previewsType: "mobile",
+    previews: [
+      "/assets/wesh previews/Home Page v0.2.png",
+      "/assets/wesh previews/Story v0.2.png",
+      "/assets/wesh previews/Stories Page v0.2.png",
+      "/assets/wesh previews/Profile v0.2.png",
+    ],
     toolsUsed: [
       {
         iconPath: "/svg/flutter.svg",
@@ -60,11 +65,20 @@ export const mainProjects: ProjectType[] = [
   },
   {
     title: "Soul Train",
-    link: "/soultrain",
-    isLinkBlankTarget: false,
+    link: "https://soultrain.app",
+    isLinkBlankTarget: true,
+    accentColor: "#C09FF8",
+    secondaryColor: "#5F01F8",
     subTitle:
       "Connect with breakers worldwide, join live battles, and showcase your skills",
     coverPath: "/assets/soul train mockup.png",
+    previewsType: "mobile",
+    previews: [
+      "/assets/soul train previews/Soul Train - Discovery Page.png",
+      "/assets/soul train previews/Soul Train - Battle Ranking Page.png",
+      "/assets/soul train previews/Soul Train - Profile Page.png",
+      "/assets/soul train previews/Soul Train - Inbox Page.png",
+    ],
     toolsUsed: [
       {
         iconPath: "/svg/flutter.svg",
@@ -73,13 +87,20 @@ export const mainProjects: ProjectType[] = [
         width: 20,
         height: 20,
       },
+      {
+        iconPath: "/svg/nodejs.svg",
+        darkIconPath: "/svg/nodejs white.svg",
+        title: "Node.js",
+        width: 22,
+        height: 22,
+      },
 
       {
         iconPath: "/svg/mongodb.svg",
         darkIconPath: "/svg/mongodb white.svg",
         title: "Mongo DB",
-        width: 22,
-        height: 22,
+        width: 24,
+        height: 24,
       },
     ],
   },
@@ -88,8 +109,15 @@ export const mainProjects: ProjectType[] = [
     title: "Big Agency Travel",
     link: "https://bigagencytravel.com",
     isLinkBlankTarget: true,
+    accentColor: "#53BF70",
+    secondaryColor: "#0097B2",
     subTitle: " Plan unforgettable trips to Mauritius island",
     coverPath: "/assets/big agency travel mockup.png",
+    previewsType: "laptop",
+    previews: [
+      "/assets/big agency travel previews/Big Agency Travel - Home.png",
+      "/assets/big agency travel previews/Big Agency Travel - Ad vid 1 - eng.webm",
+    ],
     toolsUsed: [
       {
         iconPath: "/svg/wordpress.svg",
@@ -97,99 +125,6 @@ export const mainProjects: ProjectType[] = [
         title: "WordPress",
         width: 25,
         height: 25,
-      },
-    ],
-  },
-];
-
-export const otherProjects: ProjectType[] = [
-  {
-    title: "This portfolio",
-    link: "/",
-    isLinkBlankTarget: false,
-    subTitle: "This entire portfolio is made with NextJS & Tailwind",
-    coverPath: "",
-    toolsUsed: [
-      {
-        iconPath: "/svg/nextjs.svg",
-        title: "Next.js",
-        width: 24,
-        height: 24,
-      },
-      {
-        iconPath: "/svg/tailwind-css.svg",
-        title: "Tailwind CSS",
-        width: 24,
-        height: 24,
-      },
-    ],
-  },
-  {
-    title: "Lakissa.io",
-    link: "/",
-    isLinkBlankTarget: false,
-    subTitle: "(Coming soon) A SEO and SMO toolkit for businesses",
-    coverPath: "",
-    toolsUsed: [
-      {
-        iconPath: "/svg/nextjs.svg",
-        title: "Next.js",
-        width: 24,
-        height: 24,
-      },
-      {
-        iconPath: "/svg/tailwind-css.svg",
-        title: "Tailwind CSS",
-        width: 24,
-        height: 24,
-      },
-      {
-        iconPath: "/svg/flask colored.svg",
-        title: "Flask",
-        width: 26,
-        height: 26,
-      },
-      {
-        iconPath: "/svg/prisma colored.svg",
-        title: "Prisma",
-        width: 17,
-        height: 17,
-      },
-      {
-        iconPath: "/svg/mongodb.svg",
-        title: "Mongo DB",
-        width: 15,
-        height: 15,
-      },
-    ],
-  },
-  {
-    title: "Watch Wot (App Template)",
-    link: "/",
-    isLinkBlankTarget: true,
-    subTitle: "This template serve as a base for Luxury Watches Shop",
-    coverPath: "",
-    toolsUsed: [
-      {
-        iconPath: "/svg/flutter.svg",
-        title: "Flutter",
-        width: 15,
-        height: 15,
-      },
-    ],
-  },
-  {
-    title: "Pastry (App Template)",
-    link: "/",
-    isLinkBlankTarget: true,
-    subTitle: "This template serve as a base for Service Delivery Apps",
-    coverPath: "",
-    toolsUsed: [
-      {
-        iconPath: "/svg/flutter.svg",
-        title: "Flutter",
-        width: 15,
-        height: 15,
       },
     ],
   },
@@ -225,8 +160,8 @@ export const experiencesList: experienceType[] = [
       {
         iconPath: "/svg/mongodb.svg",
         title: "Mongo DB",
-        width: 16,
-        height: 16,
+        width: 18,
+        height: 18,
       },
     ],
   },
@@ -574,7 +509,7 @@ export const weshProject: FullProject = {
               type: "button-link",
               isLinkTargetBlank: true,
               leadingIcon: <DiAndroid size={"1rem"} color="white" />,
-              link: "https://drive.google.com/file/d/1JTv8lrK95cwSjifz1WyzYdECRKgccdJq/view?usp=sharing",
+              link: "https://github.com/royalgaetan/wesh/releases/download/v0.2.0/Wesh.0.2.apk",
               content: "Android App",
             },
             {
@@ -623,12 +558,12 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Building a complete social media from scratch wasn't a simple task. There are many things to take into account such time, ressources, audience target, etc.",
+            "Building a complete social media from scratch wasn't/isn't a simple task. There are many things to take into account such as time, ressources, audience target, etc.",
         },
         {
           type: "p",
           content:
-            "But after the 1st version released, I could say the important challenges were thinking about the whole app architecture from the beginning, figure out a unique and minimalistic design and under-estimate some features that finally took more than time than required :(",
+            "But after the 1st version released, I could say the important challenges were thinking about the right App Architecture (from the beginning), Figure out an Minimalistic and Unique Design and Time Estimation for each feature to develop: they finally took more than time than expected :(",
         },
         {
           type: "h3",
@@ -642,29 +577,30 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "The prism of what I've learned goes from design, user experience, code & project architecture, clean code, deep understanding of algorithms, how android/iOS really works as well as Sales & Marketing (how to put your app in front of his audience)",
+            "The prism of what I've learned goes from Design, User Experience, Project Architecture, Clean Code, Deep Understanding of Algorithms, How Android and iOS really and deeply work as well as Sales & Marketing (how to put the app in front of its audience)",
         },
       ],
     },
     {
-      tabName: "Onboarding",
+      tabName: "Getting Started",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Onboarding v0.2.webm",
       contentText: [
         {
           type: "h3",
-          content: "Welcome screen",
+          content: "Getting Started",
         },
         {
           type: "p",
-          content: "This is the 1st page you land on after you sign up",
+          content:
+            "Enjoy a smooth start with easy sign-up, a brief intro, and instant access to your homepage",
         },
       ],
     },
     {
       tabName: "Events",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Events v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -680,7 +616,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Stories",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Stories v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -696,7 +632,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Forevers",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Forevers v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -712,7 +648,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Chats",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Chats v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -729,7 +665,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Profile",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Profile v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -743,9 +679,25 @@ export const weshProject: FullProject = {
       ],
     },
     {
+      tabName: "Notifications",
+      previewType: "video",
+      previewPath: "/assets/wesh previews/Event Notification v0.2.webm",
+      contentText: [
+        {
+          type: "h3",
+          content: "Notifications",
+        },
+        {
+          type: "p",
+          content:
+            "Stay ahead! Personalized updates keep you in the loop and ready for what’s next",
+        },
+      ],
+    },
+    {
       tabName: "Find what's happening or coming next",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Search v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -759,9 +711,9 @@ export const weshProject: FullProject = {
       ],
     },
     {
-      tabName: "Forward any content",
+      tabName: "Share & Forward",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Forward v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -782,7 +734,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Special Happy Birthday",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Special Happy Birthday v0.2.webm",
       contentText: [
         {
           type: "h3",
@@ -798,7 +750,7 @@ export const weshProject: FullProject = {
     {
       tabName: "Help Center",
       previewType: "video",
-      previewPath: "/assets/mockup2.png",
+      previewPath: "/assets/wesh previews/Help Center v0.2.webm",
       contentText: [
         {
           type: "h3",

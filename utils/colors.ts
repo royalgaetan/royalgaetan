@@ -1,1 +1,1 @@
-export const accentColor = "#F31260";
+export const globalAccentColor = "#F31260";

@@ -12,7 +12,7 @@ import { navbarElementsList } from "@/utils/constants";
 
 const ContactSection = () => {
   const contentRef = useActiveNavbar({
-    elementToActivate: navbarElementsList[4],
+    elementToActivate: navbarElementsList[3],
   });
 
   const transitionRef = useRef(null);
@@ -43,10 +43,23 @@ const ContactSection = () => {
       >
         <BgWrapper
           customClassName={
-            "pt-14 relative z-10 max-w-[100vw] min-h-screen flex flex-1 justify-center items-center"
+            "pt-14 relative z-10 max-w-[100vw] min-h-screen flex flex-col justify-center items-center"
           }
         >
-          <div className="flex md:gap-14 gap-10 max-sm:flex-col-reverse items-start max-sm:items-center justify-center w-[min(800px,100%)] px-6">
+          <div className="flex items-center justify-center w-[min(800px,100%)] px-6 mt-10 mb-16">
+            <p className="text-sm text-center">
+              If you've got an interesting idea or project that falls in my
+              skillset or my expertise or roadmap, I will be more than happy
+              that you shoot me either a DM on my socials, or an email, or by
+              using this contact form.
+              <br />
+              <br />
+              Be sure that I'll reply as soon as possible so We can move
+              mountains together 🙌
+            </p>
+          </div>
+
+          <div className="flex md:gap-14 gap-10 max-sm:flex-col-reverse items-start max-sm:items-center justify-center w-[min(800px,100%)] px-6 mb-20 mt-7">
             <div className="flex flex-col gap-3 max-sm:mb-32 w-full">
               <h3 className="mb-4 mt-1 text-sm font-semibold">
                 To get in touch with me, you can easily find me here:

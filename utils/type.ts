@@ -59,6 +59,10 @@ export type ProjectType = {
   subTitle: string;
   coverPath: string;
   toolsUsed: SkillType[];
+  previews: string[];
+  previewsType: "mobile" | "laptop";
+  accentColor: string;
+  secondaryColor: string;
 };
 
 export type experienceType = {

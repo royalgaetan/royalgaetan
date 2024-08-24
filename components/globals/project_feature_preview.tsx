@@ -5,6 +5,7 @@ import { ProjectFeature } from "@/utils/type";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { ProjectFeatureTextContent } from "./project_feature_text_content";
+import VideoContainer from "./video_container";
 
 const ProjectFeaturePreview = ({
   featureSelected,
@@ -20,8 +21,8 @@ const ProjectFeaturePreview = ({
       {featureSelected != null ? (
         <div className="flex flex-1 w-full min-h-full">
           {/* Preview Device: to preview video or image type */}
-          {featureSelected.previewType === "image" ||
-            (featureSelected.previewType === "video" && (
+          {featureSelected.previewType != "text" &&
+            featureSelected.previewType != "none" && (
               <motion.div
                 initial={{ scale: 1.09, opacity: 0.8 }}
                 whileInView={{ scale: 1, opacity: 1 }}
@@ -39,18 +40,40 @@ const ProjectFeaturePreview = ({
                     y: y / 2,
                   }}
                 >
-                  <div className="transition-all duration-400 md:h-[70vh] md:w-[35vh] h-[90vh] w-[45vh] bg-gray-800 rounded-[3rem]">
-                    <div className="flex flex-1 justify-center items-center w-full h-full">
-                      <LuLoader2
-                        className="animate-spin"
-                        color="white"
-                        size={"2rem"}
-                      />
+                  <div className="transition-all duration-400 md:h-[70vh] md:w-[35vh] h-[90vh] w-[45vh] bg-gray-800 rounded-[1.1rem]  dark:md:shadow-slate-500/90 shadow-lg shadow-neutral-800/20">
+                    <div className="flex flex-1 justify-center items-center w-full h-full relative">
+                      <div className="absolute z-20">
+                        {featureSelected.previewType === "video" ? (
+                          <VideoContainer
+                            videoUrl={featureSelected.previewPath}
+                            customVideoClassName="rounded-[1.1rem]"
+                            customClassName="rounded-[1.1rem]"
+                          />
+                        ) : (
+                          <></>
+                        )}
+                      </div>
+                      <div>
+                        {featureSelected.previewType == "image" ? (
+                          <div className="bg-gray-400 h-full w-full"></div>
+                        ) : (
+                          <></>
+                        )}
+                      </div>
+
+                      {/* Loader */}
+                      <div className="flex flex-col h-full w-full items-center justify-center relative z-10 bg-transparent">
+                        <LuLoader2
+                          className="animate-spin"
+                          color="white"
+                          size={"2rem"}
+                        />
+                      </div>
                     </div>
                   </div>
                 </motion.div>
               </motion.div>
-            ))}
+            )}
 
           {/* if Feature has (media to preview) && has Content: display its content only on large screens */}
           {featureSelected.previewType === "image" ||

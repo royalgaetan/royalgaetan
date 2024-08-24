@@ -12,9 +12,8 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import BgWrapper from "../globals/bg_wrapper";
-import InBetween from "./in_between";
 import { LuLoader2, LuCheck } from "react-icons/lu";
-import { useActiveNavbar } from "@/hooks/use_active_navbar";
+import HeadingWithIcons from "../globals/headings_with_icons";
 
 enum downloadCVIconValues {
   none,
@@ -24,10 +23,6 @@ enum downloadCVIconValues {
 
 const ExperiencesSection = () => {
   const { theme } = useTheme();
-
-  const contentRef = useActiveNavbar({
-    elementToActivate: navbarElementsList[3],
-  });
 
   const [downlodCVIconType, setDownlodCVIconType] =
     useState<downloadCVIconValues>(downloadCVIconValues.none);
@@ -60,14 +55,13 @@ const ExperiencesSection = () => {
       ref={transitionRef}
       className="flex flex-col min-h-screen max-w-[100vw] justify-center items-center"
     >
-      <InBetween
-        iconType="badge"
-        title="My experience"
-        overallYprogress={scrollYProgress}
+      <HeadingWithIcons
+        title="Experience"
+        iconName="experience"
+        customClassName="mt-28 mb-0"
       />
 
       <motion.div
-        ref={contentRef}
         id="experience"
         className="w-full"
         style={{ scale: scaleContent, rotate: rotateContent }}

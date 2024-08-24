@@ -12,17 +12,17 @@ export default function Home() {
       {/* Header */}
       <HeroSection />
 
-      {/* About Me*/}
-      <AboutMeSection />
-
       {/* Skills */}
-      <SkillsSection />
+      {/* <SkillsSection /> */}
 
       {/* Projects */}
       <ProjectSections />
 
+      {/* About Me*/}
+      <AboutMeSection />
+
       {/* More about... */}
-      <ExperiencesSection />
+      {/* <ExperiencesSection /> */}
 
       {/* Contact */}
       <ContactSection />

@@ -24,13 +24,13 @@ export const ProjectFeatureTextContent = ({
           return (
             <motion.div
               key={generatedId}
-              className="relative w-[70px] h-[70px]"
+              className="relative w-[70px] h-[70px] mt-10"
             >
               <Image
                 src={text.content}
                 alt={text.content}
                 fill
-                className="object-cover rounded-t-lg"
+                className="object-cover rounded-t-lg w-full h-full"
               />
             </motion.div>
           );
@@ -65,7 +65,7 @@ export const ProjectFeatureTextContent = ({
             <motion.h3
               key={generatedId}
               className={cn(
-                "dark:text-white font-semibold text-base mt-4 leading-relaxed tracking-wide",
+                "dark:text-white font-semibold text-base mt-10 leading-relaxed tracking-wide",
                 !isEmpty(text.color)
                   ? "text-[#F31260]/70 dark:text-[#F31260]"
                   : ""

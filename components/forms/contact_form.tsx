@@ -1,6 +1,5 @@
 "use client";
 
-import { handleContactForm } from "@/actions/contact_form";
 import { contactFormSchema } from "@/utils/type";
 import { zodResolver } from "@hookform/resolvers/zod";
 import React, { useTransition } from "react";
@@ -13,7 +12,6 @@ import { Textarea } from "../ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { LuLoader2 } from "react-icons/lu";
 import emailjs from "@emailjs/browser";
-import { revalidatePath } from "next/cache";
 
 const ContactForm = () => {
   const [isLoading, setTransition] = useTransition();
@@ -36,7 +34,7 @@ const ContactForm = () => {
           publicKey: process.env.NEXT_PUBLIC_EMAILJS_API_KEY,
         });
 
-        var templateParams = {
+        const templateParams = {
           from_name: formData.name,
           from_email: formData.email,
           from_message: formData.message,
