@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@/app/globals.css";
 import { ThemeProvider } from "next-themes";
 import { openSans } from "@/utils/fonts";
 import { Toaster } from "@/components/ui/toaster";
