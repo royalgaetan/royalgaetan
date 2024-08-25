@@ -2,7 +2,6 @@
 import React from "react";
 import { DiAndroid, DiApple } from "react-icons/di";
 import {
-  ContentType,
   experienceType,
   FullProject,
   NavbarElementType,
@@ -138,8 +137,8 @@ export const mainProjects: ProjectType[] = [
         height: 27,
       },
       {
-        iconPath: "/svg/languages logos/SQL.svg",
-        darkIconPath: "/svg/languages logos/SQL white.svg",
+        iconPath: "/svg/languages logos/sql.svg",
+        darkIconPath: "/svg/languages logos/sql white.svg",
         title: "SQL",
         width: 22,
         height: 22,

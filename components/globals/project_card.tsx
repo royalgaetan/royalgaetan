@@ -82,7 +82,7 @@ const ProjectCard = ({
                       <div className="w-9 h-9 mb-1 mr-2 rounded-full shadow-lg bg-gray-800 hover:bg-gray-600s cursor-pointer transition-all duration-300 p-2 flex flex-shrink-0 items-center justify-center">
                         <motion.img
                           src={t.darkIconPath}
-                          alt={title}
+                          alt={t.title}
                           className="object-scale-down"
                           whileHover={{
                             scale: 1.2,
