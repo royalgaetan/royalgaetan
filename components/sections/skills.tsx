@@ -17,7 +17,7 @@ const SkillsSection = () => {
     offset: ["start center", "end end"],
   });
 
-  const getCategoryY = (index: number): MotionValue<number> => {
+  const GetCategoryY = (index: number): MotionValue<number> => {
     return useTransform(scrollYProgress, [0.5, 1], [0, 10]);
   };
 
@@ -67,11 +67,11 @@ const SkillsSection = () => {
           );
           return (
             <div
-              key={i}
+              key={cat.category}
               className="flex flex-col w-full justify-center items-center"
             >
               <motion.h3
-                style={{ y: getCategoryY(i + 1) }}
+                style={{ y: GetCategoryY(i + 1) }}
                 initial={{ y: 0 }}
                 className="text-slate-300 text-5xl max-md:text-4xl max-md:mt-14 mt-11 mb-3 max-md:mb-1 font-medium"
               >

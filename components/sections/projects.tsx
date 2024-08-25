@@ -46,7 +46,7 @@ const ProjectSections = () => {
               {mainProjects.map((project, i) => {
                 return (
                   <ProjectCard
-                    key={i}
+                    key={project.title}
                     {...project}
                     overallYprogress={scrollYProgress}
                     projectIndex={i}
@@ -59,7 +59,7 @@ const ProjectSections = () => {
             {/* Large Screen Only: parallax effect  */}
             <div className="max-sm:hidden flex flex-col h-full w-full justify-center items-center mt-20">
               {mainProjects.map((project, i) => {
-                return <ProjectCard2 {...project} />;
+                return <ProjectCard2 key={project.title} {...project} />;
               })}
               <div className="h-[10vh]"></div>
             </div>

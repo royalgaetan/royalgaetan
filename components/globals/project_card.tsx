@@ -38,7 +38,7 @@ const ProjectCard = ({
   const { theme } = useTheme();
   const containerRef = useRef(null);
 
-  const getContainerScale = (index: number): MotionValue<number> => {
+  const GetContainerScale = (index: number): MotionValue<number> => {
     const targetScale = [1, 1 - (mainProjects.length - index) * 0.05];
     const divider = (1 - 0.6) / mainProjects.length;
 
@@ -52,7 +52,7 @@ const ProjectCard = ({
   return (
     <motion.div
       style={{
-        scale: getContainerScale(projectIndex + 1),
+        scale: GetContainerScale(projectIndex + 1),
         top: `calc(20px + ${projectIndex * 40}px)`,
       }}
       ref={containerRef}

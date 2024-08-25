@@ -36,7 +36,7 @@ const ProjectFeatureButton = ({
 
       onMouseMove({ x, y });
     }
-  }, [mouse]);
+  }, [mouse, onMouseMove]);
 
   return (
     <div key={key} ref={buttonRef} className="w-full">

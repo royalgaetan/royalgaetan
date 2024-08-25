@@ -19,7 +19,7 @@ const LaptopPreview = ({
   const scrollY = useTransform(
     overallYprogress,
     [0.72, 0.92],
-    [0, websitePreviewRef.current?.scrollHeight || 0]
+    [0, websitePreviewRef.current?.scrollHeight ?? 0]
   );
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const LaptopPreview = ({
         });
       }
     });
-  }, []);
+  }, [scrollY]);
 
   return (
     <motion.div

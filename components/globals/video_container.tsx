@@ -40,7 +40,7 @@ const VideoContainer = ({
   const [isPlaying, setIsPlaying] = useState<boolean | null>(true);
 
   useEffect(() => {
-    if (isInView && timeInView == 0 && isLooped != true) {
+    if (isInView && timeInView == 0 && !isLooped) {
       setIsMuted(false);
       handleRestart();
       setTimeInView(timeInView + 1);
@@ -50,7 +50,7 @@ const VideoContainer = ({
         setIsPlaying(false);
       }
     }
-  }, [isInView]);
+  }, [isInView, isLooped, timeInView, isPlaying]);
 
   const handlePlayPause = () => {
     if (videoRef.current) {
@@ -108,11 +108,10 @@ const VideoContainer = ({
               "mb-2 rounded-full shadow-lg bg-gray-800 hover:bg-gray-600s cursor-pointer transition-all duration-300 p-2 flex flex-shrink-0 items-center justify-center"
             )}
           >
-            {isPlaying ? (
-              <FaPause size={"0.7rem"} color="white" />
-            ) : isPlaying == false ? (
-              <FaPlay size={"0.7rem"} color="white" />
-            ) : (
+            {isPlaying && <FaPause size={"0.7rem"} color="white" />}
+            {!isPlaying && <FaPlay size={"0.7rem"} color="white" />}
+
+            {isPlaying == null && (
               <FaRotateRight size={"0.7rem"} color="white" />
             )}
           </button>
