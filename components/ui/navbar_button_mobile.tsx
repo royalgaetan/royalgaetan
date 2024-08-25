@@ -26,7 +26,7 @@ const NavbarButtonMobile = ({
       className={cn(
         "whitespace-nowrap flex-nowrap font-medium text-neutral-500 cursor-pointer",
         activeNavbarElement.title == navElement.title
-          ? "text-neutral-200 font-bold"
+          ? "text-white font-bold"
           : "hover:font-semibold hover:text-neutral-300"
       )}
     >

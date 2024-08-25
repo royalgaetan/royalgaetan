@@ -34,13 +34,14 @@ const VideoContainer = ({
   isAutoplayed?: boolean;
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMuted, setIsMuted] = useState(false);
+  const [isMuted, setIsMuted] = useState(true);
   const isInView = useInView(videoRef, { amount: 0.3 });
   const [timeInView, setTimeInView] = useState(0);
   const [isPlaying, setIsPlaying] = useState<boolean | null>(true);
 
   useEffect(() => {
     if (isInView && timeInView == 0 && isLooped != true) {
+      setIsMuted(false);
       handleRestart();
       setTimeInView(timeInView + 1);
     } else if (!isInView) {

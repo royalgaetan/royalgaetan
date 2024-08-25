@@ -2,13 +2,13 @@
 
 import { FullProject, ProjectFeature } from "@/utils/type";
 import React, { useState } from "react";
-import ProjectFeatureButton from "../globals/project_feature_button";
 import ProjectFeaturePreview, {
   EmptyProjectFeaturePreview,
   MiniProjectIntro,
 } from "../globals/project_feature_preview";
 import ProjectFeatureModal from "../globals/project_feature_modal";
 import { useNavbarContext } from "@/providers/navbar_provider";
+import ProjectFeatureButton from "../ui/project_feature_button";
 
 const FullProjectSection = ({ project }: { project: FullProject }) => {
   const [{ x, y }, setmousePosition] = useState({ x: 0, y: 0 });
@@ -22,7 +22,7 @@ const FullProjectSection = ({ project }: { project: FullProject }) => {
   const { setIsDialogOpen } = useNavbarContext();
 
   return (
-    <div className="relative flex md:flex-1 max-sm:flex-col-reverse md:gap-5 gap-2 justify-start items-center h-full md:h-[100vh] px-10 lg:px-[20%] overflow-y-auto overflow-x-hidden">
+    <div className="relative flex md:flex-1 max-sm:flex-col-reverse md:gap-5 gap-2 justify-start items-center h-full md:h-[100vh] w-[100vw] px-10 lg:px-[20%] overflow-y-auto overflow-x-hidden">
       {/* Left Side Buttons: Home, Features, etc. */}
       <div className="flex flex-col md:max-h-[80vh] max-h-full md:w-[min(300px,100%)] w-[80vw] md:pb-0 pb-14">
         {project.features.map((feature) => {

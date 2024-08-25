@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import HeadingWithIcons from "../globals/headings_with_icons";
+import AnimatedText from "../globals/animated_text";
 
 const PhilosophySection = () => {
   const transitionRef = useRef(null);
@@ -11,58 +12,52 @@ const PhilosophySection = () => {
     offset: ["start start", "end end"],
   });
 
-  const variants = {
-    initial: {
-      y: 5,
-      opacity: 0,
-    },
-    show: (i: number) => ({
-      y: 0,
-      opacity: 1,
-
-      transition: {
-        type: "spring",
-        stiffness: "120",
-        duration: 0.4,
-        delay: i * 0.2,
-      },
-    }),
-  };
-
   return (
     <section
       ref={transitionRef}
       id="skills"
-      className="flex flex-col w-full justify-center items-center"
+      className="flex flex-col justify-center items-center w-[min(500px,85vw)]"
     >
       <HeadingWithIcons
         title="My Philosophy"
         iconName="philosophy"
-        customClassName="mt-28 mb-20"
+        customClassName="mt-44 mb-3 flex max-md:hidden"
+      />
+      <HeadingWithIcons
+        title="Philosophy"
+        iconName="philosophy"
+        customClassName="mt-44 mb-3 hidden max-md:flex"
       />
 
       {/* GRID: Skills cards */}
-      <motion.p>
-        My thoughts on Programing Languages I've been using several languages to
-        built apps (both mobile and web) and for me when I learned one language
-        I felt like married and stick to it forever, and not moving to
-        alternatives or look at other ones (Not too bad as approach) <br />
+      <h3 className="font-medium max-md:text-sm max-md:mt-2">
+        My thoughts on Programing Languages
+      </h3>
+      <motion.p className="max-md:text-xs text-xs w-full md:w-full mt-6">
+        <AnimatedText
+          key={2}
+          overallYprogress={scrollYProgress}
+          overallYprogressArray={[0, 0.35]}
+          text="I’ve worked with several languages to build apps (both mobile and web). <br> Initially, when I learned a new language, I felt like I was committed to it for life, rarely considering other options (not a bad approach in itself)."
+        />
       </motion.p>
 
-      <motion.p>
-        But my philosophy has shifted to a more pragmatic one, no long time ago:
-        it involves learning a new language/framework as fast as possible,
-        deeply and purposefully (applied to real case situations) <br />
+      <motion.p className="max-md:text-xs text-xs w-full md:w-full mt-6">
+        <AnimatedText
+          key={2}
+          overallYprogress={scrollYProgress}
+          overallYprogressArray={[0.4, 0.7]}
+          text="Recently, however, my philosophy has evolved. <br> Now, I adopt a more pragmatic approach: learning new languages or frameworks quickly, deeply, and with intent (applied to real-world scenarios)."
+        />
       </motion.p>
 
-      <motion.p>
-        This give me the both benefits of being a specialist with experience in
-        no time and the flexibility to switch language/framework to better suits
-        my needs or project requirements.
-        <br />
-        <br />
-        Similar to a blacksmith or a carpenter who will carefully pick either a
-        hammer or a saw or a modern brand new machine to get his/her work done
+      <motion.p className="max-md:text-xs text-xs w-full md:w-full mt-6">
+        <AnimatedText
+          key={2}
+          overallYprogress={scrollYProgress}
+          overallYprogressArray={[0.75, 0.95]}
+          text="This gives me the advantage of becoming a specialist in no time while maintaining the flexibility to switch languages or frameworks to better meet my needs or project demands. <br> It’s similar to how a blacksmith or carpenter selects the right tool—a hammer, saw, or a state-of-the-art machine—to get their work done effectively and efficiently."
+        />
       </motion.p>
     </section>
   );

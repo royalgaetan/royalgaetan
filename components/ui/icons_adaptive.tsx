@@ -75,10 +75,15 @@ export const MessageChatIcon = () => {
   const { theme } = useTheme();
 
   return (
-    <LuMessageCircle
-      size={"1.8em"}
-      color={theme === "dark" ? "white" : "#0f172a"}
-      className="center mt-1"
-    />
+    <div className="relative animate-pulse">
+      <LuMessageCircle
+        size={"1.8em"}
+        color={theme === "dark" ? "white" : "#0f172a"}
+        className="center mt-1"
+      />
+      <div className="w-3 h-3 flex justify-center items-center absolute -top-1 -right-1 z-10 rounded-full bg-[#F31260] text-white text-xs p-2">
+        1
+      </div>
+    </div>
   );
 };

@@ -3,16 +3,16 @@
 import React, { useRef } from "react";
 import ContactForm from "../forms/contact_form";
 import { BiEnvelope, BiLogoLinkedin, BiLogoGithub } from "react-icons/bi";
-import ContactBadge from "../globals/contact_badge";
 import { motion, useScroll, useTransform } from "framer-motion";
 import BgWrapper from "../globals/bg_wrapper";
 import InBetween from "./in_between";
 import { useActiveNavbar } from "@/hooks/use_active_navbar";
 import { navbarElementsList } from "@/utils/constants";
+import ContactButton from "../ui/contact_button";
 
 const ContactSection = () => {
   const contentRef = useActiveNavbar({
-    elementToActivate: navbarElementsList[3],
+    elementToActivate: navbarElementsList[4],
   });
 
   const transitionRef = useRef(null);
@@ -22,7 +22,7 @@ const ContactSection = () => {
   });
 
   const scaleContent = useTransform(scrollYProgress, [0, 1], [0.9, 1]);
-  const rotateContent = useTransform(scrollYProgress, [0, 1], [-2, 0]);
+  const rotateContent = useTransform(scrollYProgress, [0, 0.5], [-2, 0]);
 
   return (
     <section
@@ -48,24 +48,24 @@ const ContactSection = () => {
         >
           <div className="flex items-center justify-center w-[min(800px,100%)] px-6 mt-10 mb-16">
             <p className="text-sm text-center">
-              If you've got an interesting idea or project that falls in my
-              skillset or my expertise or roadmap, I will be more than happy
-              that you shoot me either a DM on my socials, or an email, or by
-              using this contact form.
+              If you've got an interesting idea or project that falls within my
+              skill set, expertise, or roadmap, I will be more than happy if you
+              shoot me a DM on my socials, send me an email, or use this contact
+              form.
               <br />
               <br />
-              Be sure that I'll reply as soon as possible so We can move
-              mountains together 🙌
+              Be assured that I'll reply as soon as possible so we can move
+              Mountains together 😊💪
             </p>
           </div>
 
           <div className="flex md:gap-14 gap-10 max-sm:flex-col-reverse items-start max-sm:items-center justify-center w-[min(800px,100%)] px-6 mb-20 mt-7">
-            <div className="flex flex-col gap-3 max-sm:mb-32 w-full">
+            <div className="flex flex-col gap-3 max-sm:mb-32 w-full h-fit">
               <h3 className="mb-4 mt-1 text-sm font-semibold">
-                To get in touch with me, you can easily find me here:
+                To get in touch, you can find me her:
               </h3>
 
-              <ContactBadge
+              <ContactButton
                 title="Email"
                 link="mailto:gaetanroyalpro@gmail.com"
                 icon={
@@ -75,7 +75,7 @@ const ContactSection = () => {
                 }
               />
 
-              <ContactBadge
+              <ContactButton
                 title="LinkedIn"
                 link="https://linkedin.com/in/royalg"
                 icon={
@@ -85,7 +85,7 @@ const ContactSection = () => {
                 }
               />
 
-              <ContactBadge
+              <ContactButton
                 title="Github"
                 link="https://github.com/royalgaetan"
                 icon={

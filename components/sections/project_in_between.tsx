@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import { motion, MotionValue, useTransform } from "framer-motion";
 
 const ProjectInBetween = ({
@@ -67,7 +66,7 @@ const ProjectInBetween = ({
 
           <motion.h3 className="text-center font-semibold text-sm mt-3 leading-relaxed tracking-wide text-[#F31260]/70 dark:text-[#F31260]">
             A Full-Stack Mobile and Web Developer who creates apps that bring
-            value and solve real-life problems
+            value and solve real-life problems.
           </motion.h3>
         </motion.div>
 
@@ -79,13 +78,13 @@ const ProjectInBetween = ({
         >
           <motion.p className="mt-4 -mb-1 text-sm dark:text-white text-slate-600 font-medium max-sm:px-5 text-center">
             <span className="block mb-1 italic">
-              - Create stunning designs takes time
+              - Creating stunning designs takes time.
             </span>
             <span className="block mb-1 italic">
-              - Create fully functional apps is hard
+              - Creating fully functional apps is hard.
             </span>
             <span className="block mb-1 italic">
-              - Create apps that provide value is a challenge
+              - Creating apps that provide value is a challenge.
             </span>
           </motion.p>
         </motion.div>
@@ -97,16 +96,18 @@ const ProjectInBetween = ({
           className="absolute top-0 z-20 flex flex-col justify-center items-center mt-32"
         >
           <motion.p className="text-center text-sm dark:text-white text-slate-600 font-medium max-sm:px-5">
-            From User interactions (Social Networks) to Complex B2B apps
-            (Dashboards, Automations, Data Visualisation)
+            From Seamless User Experience (like Social Networks) to Complex B2B
+            solutions (Dashboards, Automations, CRMs, Data Analytics)
             <br />
             <br />
-            Over the last 4 years I've been partaking in projects (as solo or
-            with teams) that mix all these 3 key factors to build world-class
-            top-notch Apps
+            I've been involved in projects over the last 4 years (either solo or
+            with teams) that combine all these 3 key factors to build
+            World-class, Top-notch Apps:
             <br />
             <br />
-            <b> Beautiful, Bug-free and Useful</b>
+            <b className="text-[#F31260]/70 dark:text-[#F31260]">
+              Beautiful, Bug-free, and Useful
+            </b>
             <br />
             <br />
           </motion.p>

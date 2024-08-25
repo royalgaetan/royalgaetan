@@ -46,6 +46,7 @@ export type NavbarElementType = {
 
 export type SkillType = {
   title: string;
+  category?: "frontend" | "backend" | "mobile" | "database" | "tools";
   iconPath: string;
   darkIconPath?: string;
   width: number;

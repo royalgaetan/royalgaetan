@@ -66,7 +66,7 @@ const HeadingWithIcons = ({
         customClassName
       )}
     >
-      <h2 className="relative text-center dark:text-white text-slate-700 font-semibold text-6xl leading-relaxed tracking-wide max-sm:px-5">
+      <h2 className="relative text-center dark:text-white text-slate-700 font-semibold text-6xl max-md:text-5xl leading-relaxed tracking-wide max-sm:px-5">
         <span>{title}</span>
 
         {/* Icons */}
@@ -77,9 +77,9 @@ const HeadingWithIcons = ({
           height={getIconData(iconName)?.size[0]}
           style={{ rotate: getIconData(iconName)?.rotation[0] }}
           className={cn(
-            "object-scale-down absolute top-10 -left-7",
-            iconName === "experience" ? "top-8 -left-10" : "",
-            iconName === "philosophy" ? "top-2 -left-8" : "",
+            "object-scale-down absolute top-[10px] -left-[9px]",
+            iconName === "experience" ? "top-[8px] -left-[30px]" : "",
+            iconName === "philosophy" ? "top-[2px] -left-[30px]" : "",
             getIconData(iconName)?.animation
           )}
         />
@@ -91,7 +91,7 @@ const HeadingWithIcons = ({
           height={getIconData(iconName)?.size[1]}
           style={{ rotate: getIconData(iconName)?.rotation[1] }}
           className={cn(
-            "object-scale-down absolute top-2 -right-7 animate-pulse",
+            "object-scale-down absolute top-[1px] -right-[7px] animate-pulse",
             getIconData(iconName)?.animation
           )}
         />
@@ -103,7 +103,7 @@ const HeadingWithIcons = ({
           height={getIconData(iconName)?.size[2]}
           style={{ rotate: getIconData(iconName)?.rotation[2] }}
           className={cn(
-            "object-scale-down absolute top-[4.4rem] -right-4 animate-pulse",
+            "object-scale-down absolute -bottom-[5px] right-[2px] animate-pulse",
             getIconData(iconName)?.animation
           )}
         />

@@ -4,7 +4,7 @@ import { useNavbarContext } from "@/providers/navbar_provider";
 import { navbarElementsList } from "@/utils/constants";
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
-import NavbarButtonMobile from "./navbar_button_mobile";
+import NavbarButtonMobile from "../ui/navbar_button_mobile";
 
 const MobileMenuWrapper = ({ children }: any) => {
   const { isMobileMenuOpen, setIsMobileMenuOpen } = useNavbarContext();

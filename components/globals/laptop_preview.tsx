@@ -1,12 +1,7 @@
 "use client";
 
 import { getFileType } from "@/utils/functions";
-import {
-  motion,
-  MotionValue,
-  useMotionValue,
-  useTransform,
-} from "framer-motion";
+import { motion, MotionValue, useTransform } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 import { LuLoader2 } from "react-icons/lu";
 import VideoContainer from "./video_container";

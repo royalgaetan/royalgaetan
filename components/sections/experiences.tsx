@@ -1,19 +1,19 @@
 "use client";
 
 import React, { useRef, useState, useTransition } from "react";
-import { experiencesList, navbarElementsList } from "@/utils/constants";
+import { experiencesList } from "@/utils/constants";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import ExperienceBadge from "../globals/experience_badge";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import BgWrapper from "../globals/bg_wrapper";
 import { LuLoader2, LuCheck } from "react-icons/lu";
 import HeadingWithIcons from "../globals/headings_with_icons";
+import ExperienceBadge from "../ui/experience_badge";
 
 enum downloadCVIconValues {
   none,

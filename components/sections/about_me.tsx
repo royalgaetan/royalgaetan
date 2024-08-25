@@ -1,13 +1,11 @@
 "use client";
 
 import React, { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { cn } from "@/lib/utils";
-import { aboutMeContent, navbarElementsList } from "@/utils/constants";
+import { motion, useScroll } from "framer-motion";
+import { navbarElementsList } from "@/utils/constants";
 import InBetween from "./in_between";
 import BgWrapper from "../globals/bg_wrapper";
 import { useActiveNavbar } from "@/hooks/use_active_navbar";
-import { isEmpty } from "@/utils/strings_utils";
 import SkillsSection from "./skills";
 import MyStorySection from "./my_story";
 import PhilosophySection from "./philosophy";
@@ -23,8 +21,6 @@ const AboutMeSection = () => {
     target: transitionRef,
     offset: ["start end", "end end"],
   });
-
-  // const scaleContent = useTransform(scrollYProgress, [0, 0.03, 1], [0.9, 1, 1]);
 
   return (
     <section
@@ -44,7 +40,7 @@ const AboutMeSection = () => {
             "relative z-10 w-full min-h-screen flex flex-col justify-center items-center"
           }
         >
-          <div className="flex flex-col justify-center items-center w-[min(800px,100%)] max-sm:px-5 mb-24 pt-24 md:my-16">
+          <div className="flex flex-col justify-center items-center w-[min(800px,100%)] max-md:px-2 mb-24 pt-24 md:my-16">
             <MyStorySection />
 
             <SkillsSection />

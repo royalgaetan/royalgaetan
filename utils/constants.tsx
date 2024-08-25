@@ -24,6 +24,10 @@ export const navbarElementsList: NavbarElementType[] = [
     hash: "#about",
   },
   {
+    title: "Skills",
+    hash: "#skills",
+  },
+  {
     title: "Let's talk?",
     hash: "#contact",
   },
@@ -48,15 +52,15 @@ export const mainProjects: ProjectType[] = [
     ],
     toolsUsed: [
       {
-        iconPath: "/svg/flutter.svg",
-        darkIconPath: "/svg/flutter white.svg",
+        iconPath: "/svg/languages logos/flutter.svg",
+        darkIconPath: "/svg/languages logos/flutter white.svg",
         title: "Flutter",
         width: 20,
         height: 20,
       },
       {
-        iconPath: "/svg/firebase.svg",
-        darkIconPath: "/svg/firebase white.svg",
+        iconPath: "/svg/languages logos/firebase.svg",
+        darkIconPath: "/svg/languages logos/firebase white.svg",
         title: "Firebase",
         width: 20,
         height: 20,
@@ -81,23 +85,23 @@ export const mainProjects: ProjectType[] = [
     ],
     toolsUsed: [
       {
-        iconPath: "/svg/flutter.svg",
-        darkIconPath: "/svg/flutter white.svg",
+        iconPath: "/svg/languages logos/flutter.svg",
+        darkIconPath: "/svg/languages logos/flutter white.svg",
         title: "Flutter",
         width: 20,
         height: 20,
       },
       {
-        iconPath: "/svg/nodejs.svg",
-        darkIconPath: "/svg/nodejs white.svg",
+        iconPath: "/svg/languages logos/nodejs.svg",
+        darkIconPath: "/svg/languages logos/nodejs white.svg",
         title: "Node.js",
         width: 22,
         height: 22,
       },
 
       {
-        iconPath: "/svg/mongodb.svg",
-        darkIconPath: "/svg/mongodb white.svg",
+        iconPath: "/svg/languages logos/mongodb.svg",
+        darkIconPath: "/svg/languages logos/mongodb white.svg",
         title: "Mongo DB",
         width: 24,
         height: 24,
@@ -120,11 +124,25 @@ export const mainProjects: ProjectType[] = [
     ],
     toolsUsed: [
       {
-        iconPath: "/svg/wordpress.svg",
-        darkIconPath: "/svg/wordpress white.svg",
+        iconPath: "/svg/languages logos/wordpress.svg",
+        darkIconPath: "/svg/languages logos/wordpress white.svg",
         title: "WordPress",
         width: 25,
         height: 25,
+      },
+      {
+        iconPath: "/svg/languages logos/php.svg",
+        darkIconPath: "/svg/languages logos/php white.svg",
+        title: "PHP",
+        width: 27,
+        height: 27,
+      },
+      {
+        iconPath: "/svg/languages logos/SQL.svg",
+        darkIconPath: "/svg/languages logos/SQL white.svg",
+        title: "SQL",
+        width: 22,
+        height: 22,
       },
     ],
   },
@@ -151,14 +169,14 @@ export const experiencesList: experienceType[] = [
     ),
     toolsUsed: [
       {
-        iconPath: "/svg/flutter.svg",
+        iconPath: "/svg/languages logos/flutter.svg",
         title: "Flutter",
         width: 15,
         height: 15,
       },
 
       {
-        iconPath: "/svg/mongodb.svg",
+        iconPath: "/svg/languages logos/mongodb.svg",
         title: "Mongo DB",
         width: 18,
         height: 18,
@@ -185,7 +203,7 @@ export const experiencesList: experienceType[] = [
     ),
     toolsUsed: [
       {
-        iconPath: "/svg/wordpress.svg",
+        iconPath: "/svg/languages logos/wordpress.svg",
         title: "WordPress",
         width: 24,
         height: 24,
@@ -218,13 +236,13 @@ export const experiencesList: experienceType[] = [
     ),
     toolsUsed: [
       {
-        iconPath: "/svg/flutter.svg",
+        iconPath: "/svg/languages logos/flutter.svg",
         title: "Flutter",
         width: 15,
         height: 15,
       },
       {
-        iconPath: "/svg/firebase.svg",
+        iconPath: "/svg/languages logos/firebase.svg",
         title: "Firebase",
         width: 13,
         height: 13,
@@ -246,25 +264,25 @@ export const experiencesList: experienceType[] = [
     companyName: "Ventura",
     toolsUsed: [
       {
-        iconPath: "/svg/flutter.svg",
+        iconPath: "/svg/languages logos/flutter.svg",
         title: "Flutter",
         width: 15,
         height: 15,
       },
       {
-        iconPath: "/svg/nextjs.svg",
+        iconPath: "/svg/languages logos/nextjs.svg",
         title: "Next.js",
         width: 24,
         height: 24,
       },
       {
-        iconPath: "/svg/mongodb.svg",
+        iconPath: "/svg/languages logos/mongodb.svg",
         title: "Mongo DB",
         width: 15,
         height: 15,
       },
       {
-        iconPath: "",
+        iconPath: "/svg/languages logos/php.svg",
         title: "PHP",
         width: 24,
         height: 24,
@@ -285,172 +303,164 @@ export const experiencesList: experienceType[] = [
   },
 ];
 
-export const aboutMeContent: ContentType[] = [
-  {
-    type: "",
-    content: "",
-  },
-  {
-    type: "p",
-    content: "Hi👋 My name is",
-  },
-  {
-    type: "h2",
-    content: "Royal GAETAN",
-  },
-  {
-    type: "h3",
-    color: "#F31260",
-    content: `and I'm a Mobile and Full-Stack Web Developer with over 4 years of experience`,
-  },
-  {
-    type: "hr",
-    content: "",
-  },
-  {
-    type: "h3",
-    content: "But first of all I would like to tell you my little story :)",
-  },
-  {
-    type: "p",
-    content:
-      "I started my programming journey at 14, excited by the joy of creating fun projects.",
-  },
-  {
-    type: "p",
-    content:
-      "But 4 years ago, my journey took a transformative turn. I spent almost three months with business owners in a particular niche and witnessed how web and mobile apps were revolutionizing their operations.",
-  },
-  {
-    type: "p",
-    content:
-      "These tools boosted their income, reduced daily stress, and even allowed some of them to take a vacation for the first time in their lives (incredible, right?!).",
-  },
-  {
-    type: "p",
-    content:
-      "This experience changed my entire perspective. I realized that coding wasn't just about building; it was about solving real-world problems and creating possibilities.",
-  },
-
-  {
-    type: "p",
-    content:
-      "Since then, I've been on a mission to create awesome apps that add real value to people's lives.",
-  },
-];
-
 export const skillsList: SkillType[] = [
   {
     title: "Flutter",
-    iconPath: "/svg/flutter.svg",
-    darkIconPath: "/svg/flutter white.svg",
+    category: "mobile",
+    iconPath: "/svg/languages logos/flutter.svg",
+    darkIconPath: "/svg/languages logos/flutter white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Dart",
-    iconPath: "/svg/dart.svg",
-    darkIconPath: "/svg/dart white.svg",
+    category: "mobile",
+    iconPath: "/svg/languages logos/dart.svg",
+    darkIconPath: "/svg/languages logos/dart white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "React.js",
-    iconPath: "/svg/reactjs.svg",
-    darkIconPath: "/svg/reactjs white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/reactjs.svg",
+    darkIconPath: "/svg/languages logos/reactjs white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Next.js",
-    iconPath: "/svg/nextjs.svg",
-    darkIconPath: "/svg/nextjs white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/nextjs.svg",
+    darkIconPath: "/svg/languages logos/nextjs white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Typescript",
-    iconPath: "/svg/typescript.svg",
-    darkIconPath: "/svg/typescript white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/typescript.svg",
+    darkIconPath: "/svg/languages logos/typescript white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Javascript",
-    iconPath: "/svg/javascript.svg",
-    darkIconPath: "/svg/javascript white.svg",
-    width: 50,
-    height: 50,
-  },
-
-  {
-    title: "Prisma",
-    iconPath: "/svg/prisma.svg",
-    darkIconPath: "/svg/prisma white.svg",
-    width: 50,
-    height: 50,
-  },
-  {
-    title: "MongoDB",
-    iconPath: "/svg/mongodb.svg",
-    darkIconPath: "/svg/mongodb white.svg",
-    width: 50,
-    height: 50,
-  },
-  {
-    title: "Python",
-    iconPath: "/svg/python.svg",
-    darkIconPath: "/svg/python white.svg",
-    width: 50,
-    height: 50,
-  },
-  {
-    title: "Flask",
-    iconPath: "/svg/flask.svg",
-    darkIconPath: "/svg/flask white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/javascript.svg",
+    darkIconPath: "/svg/languages logos/javascript white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Tailwind",
-    iconPath: "/svg/tailwind-css.svg",
-    darkIconPath: "/svg/tailwind-css white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/tailwind-css.svg",
+    darkIconPath: "/svg/languages logos/tailwind-css white.svg",
     width: 50,
     height: 50,
   },
-
   {
     title: "Framer Motion",
-    iconPath: "/svg/framer-motion.svg",
-    darkIconPath: "/svg/framer-motion white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/framer-motion.svg",
+    darkIconPath: "/svg/languages logos/framer-motion white.svg",
     width: 40,
     height: 40,
   },
   {
-    title: "Wordpress",
-    iconPath: "/svg/wordpress.svg",
-    darkIconPath: "/svg/wordpress white.svg",
-    width: 50,
-    height: 50,
-  },
-  {
     title: "HTML",
-    iconPath: "/svg/html.svg",
-    darkIconPath: "/svg/html white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/html.svg",
+    darkIconPath: "/svg/languages logos/html white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "CSS",
-    iconPath: "/svg/css.svg",
-    darkIconPath: "/svg/css white.svg",
+    category: "frontend",
+    iconPath: "/svg/languages logos/css.svg",
+    darkIconPath: "/svg/languages logos/css white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Wordpress",
+    category: "frontend",
+    iconPath: "/svg/languages logos/wordpress.svg",
+    darkIconPath: "/svg/languages logos/wordpress white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Prisma",
+    category: "database",
+    iconPath: "/svg/languages logos/prisma.svg",
+    darkIconPath: "/svg/languages logos/prisma white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "MongoDB",
+    category: "database",
+    iconPath: "/svg/languages logos/mongodb.svg",
+    darkIconPath: "/svg/languages logos/mongodb white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "SQL",
+    category: "database",
+    iconPath: "/svg/languages logos/sql.svg",
+    darkIconPath: "/svg/languages logos/sql white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Firebase",
+    category: "database",
+    iconPath: "/svg/languages logos/firebase.svg",
+    darkIconPath: "/svg/languages logos/firebase white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "PHP",
+    category: "backend",
+    iconPath: "/svg/languages logos/php.svg",
+    darkIconPath: "/svg/languages logos/php white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Python",
+    category: "backend",
+    iconPath: "/svg/languages logos/python.svg",
+    darkIconPath: "/svg/languages logos/python white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Flask",
+    category: "backend",
+    iconPath: "/svg/languages logos/flask.svg",
+    darkIconPath: "/svg/languages logos/flask white.svg",
     width: 50,
     height: 50,
   },
   {
     title: "Git",
-    iconPath: "/svg/git.svg",
-    darkIconPath: "/svg/git white.svg",
+    category: "tools",
+    iconPath: "/svg/languages logos/git.svg",
+    darkIconPath: "/svg/languages logos/git white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    title: "Codemagic",
+    category: "tools",
+    iconPath: "/svg/languages logos/codemagic.svg",
+    darkIconPath: "/svg/languages logos/codemagic white.svg",
     width: 50,
     height: 50,
   },

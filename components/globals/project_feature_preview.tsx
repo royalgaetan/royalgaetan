@@ -45,6 +45,7 @@ const ProjectFeaturePreview = ({
                       <div className="absolute z-20">
                         {featureSelected.previewType === "video" ? (
                           <VideoContainer
+                            key={featureSelected.previewPath}
                             videoUrl={featureSelected.previewPath}
                             customVideoClassName="rounded-[1.1rem]"
                             customClassName="rounded-[1.1rem]"

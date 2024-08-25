@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useRef } from "react";
-import Image from "next/image";
 import {
   Tooltip,
   TooltipContent,
@@ -12,10 +11,7 @@ import { ProjectType } from "@/utils/type";
 import { motion, MotionValue, useScroll, useTransform } from "framer-motion";
 import { useTheme } from "next-themes";
 import { isEmpty } from "@/utils/strings_utils";
-import { getFileType } from "@/utils/functions";
 import { cn } from "@/lib/utils";
-import { LuLoader2 } from "react-icons/lu";
-import VideoContainer from "./video_container";
 import LaptopPreview from "./laptop_preview";
 
 const ProjectCard2 = ({
@@ -27,7 +23,6 @@ const ProjectCard2 = ({
   accentColor,
   secondaryColor,
   link,
-  isLinkBlankTarget,
 }: ProjectType) => {
   const projectContainerRef = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -39,7 +34,6 @@ const ProjectCard2 = ({
 
   const GetY = (
     index: number,
-    initialY: number,
     customVelocity?: number
   ): MotionValue<number> => {
     const finalIndex = previews.length - 1 - index;
@@ -203,7 +197,7 @@ const ProjectCard2 = ({
 
         {previewsType == "laptop" && (
           <LaptopPreview
-            y={GetY(1, 270, 200)}
+            y={GetY(1, 200)}
             overallYprogress={scrollYProgress}
             previewsArray={previews}
           />

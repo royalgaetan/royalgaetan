@@ -2,93 +2,62 @@
 
 import React, { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
-import Image from "next/image";
+import AnimatedText from "../globals/animated_text";
+import AnimatedImage from "../globals/animated_image";
 
 const MyStorySection = () => {
   const transitionRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: transitionRef,
-    offset: ["start start", "end end"],
+    offset: ["start center", "end end"],
   });
-
-  const variants = {
-    initial: {
-      y: 5,
-      opacity: 0,
-    },
-    show: (i: number) => ({
-      y: 0,
-      opacity: 1,
-
-      transition: {
-        type: "spring",
-        stiffness: "120",
-        duration: 0.4,
-        delay: i * 0.2,
-      },
-    }),
-  };
 
   return (
     <section
       ref={transitionRef}
       id="story"
-      className="flex flex-col justify-start items-start w-[min(670px,95vw)] mb-24"
+      className="flex flex-col justify-start items-start w-[min(670px,85vw)] mb-24 max-md:mb-10"
     >
       <div className="flex flex-1 justify-start w-full">
-        <motion.p className="max-md:text-sm text-xs w-full md:w-[23vw]">
-          I started programming at 14, when I was introduced to that by my
-          brother (I was back at home for vacation from boarding school).
-          <br />
-          <br />
-          At the beginning it was about creating funny and some sort of useful
-          stuff. I remember creating my 1st ever big project: a social platform
-          for Students (with some JavaScript/Bootstrap for Front-end, SQL for
-          database, backed by the popular, back then, PHP).
-          <br />
-          <br />
-          And, Hmm that wasn't the big success as expected, but I learned a lot
-          :)
-          <br />
-          But all of this is not that important...
+        <motion.p className="max-md:text-xs text-xs w-[40%] max-md:w-[70vw]">
+          <AnimatedText
+            key={0}
+            overallYprogress={scrollYProgress}
+            overallYprogressArray={[0, 0.4]}
+            text="I started my programming journey at 14, thanks to my brother, while I was home on vacation from boarding school. <br> At first, it was about creating funny and somewhat useful things. <br> I remember creating my first major project: a social platform for students using JavaScript/Bootstrap for the front-end, SQL for the database, and the then-popular PHP for the back-end. <br> Although it wasn’t as successful as I had hoped, it was a tremendous learning experience :) <br> But that’s not the most important part..."
+          />
         </motion.p>
       </div>
 
       <div className="flex flex-1 justify-end w-full">
-        <motion.p className="max-md:text-sm text-xs w-full md:w-[23vw] mt-4">
-          Fast forward years later... <br />
-          My journey took a very transformative avenue just 4 years ago when I
-          spent almost 3 months working with business owners from a particular
-          niche.
-          <br />
-          <br />
-          I witnessed from the 1st hand, how software, apps, websites (you name
-          it) were transforming their entire businesses: from staff management,
-          operations and processes effectiveness, to decision making.
-          <br />
-          <br />
-          That leads to savings them costs, increasing their income, taking
-          data-driven decisions and even MORE free up time (some, for the 1st
-          time of their life, even took their 1st vacation with their families,
-          awesome right!)
+        <motion.p className="max-md:text-xs text-xs w-[40%] max-md:w-[70vw] max-md:mt-10 mt-4">
+          <AnimatedText
+            key={1}
+            overallYprogress={scrollYProgress}
+            overallYprogressArray={[0.45, 0.7]}
+            text="Fast forward to four years ago, my journey took a transformative turn when I spent almost 3 months working with business owners from a specific niche. <br> I witnessed firsthand how software, apps, and websites were transforming their entire businesses: from staff management and operational efficiency to decision-making. <br> This led to cost savings, increased income, data-driven decisions, and even more free time. <br> Some of them, for the first time in their lives, took a vacation with their families—how awesome is that?"
+          />
         </motion.p>
       </div>
 
       <div className="flex flex-1 justify-start w-full">
-        <motion.p className="max-md:text-sm text-xs w-full md:w-[23vw] mt-6">
-          Since then I'm committed to create apps that bring real value to
-          either people (on their day to day life) or businesses (big and small
-          ones)
+        <motion.p className="max-md:text-xs text-xs w-[40%] max-md:w-[70vw] max-md:mt-10 mt-4">
+          <AnimatedText
+            key={2}
+            overallYprogress={scrollYProgress}
+            overallYprogressArray={[0.75, 0.85]}
+            text="Since then, I’ve been dedicated to creating apps that provide genuine and real value to people in their everyday lives and to businesses, whether large or small."
+          />
         </motion.p>
       </div>
 
-      <div className="flex flex-1 justify-end w-full">
-        <motion.div className="relative w-[200px] h-[200px] mr-16">
-          <Image
-            src={"/assets/brushed.png"}
-            alt={"/assets/brushed.png"}
-            fill
-            className="object-top object-scale-down w-full h-full"
+      <div className="flex flex-1 justify-end max-md:justify-center w-full">
+        <motion.div className="relative w-[200px] h-[200px] max-md:w-60 max-md:h-60 mr-32 mt-0 max-md:mt-10 max-md:mr-0">
+          <AnimatedImage
+            key={3}
+            overallYprogress={scrollYProgress}
+            overallYprogressArray={[0.87, 0.9, 0.94, 0.97, 1]}
+            path="/assets/brushed.png"
           />
         </motion.div>
       </div>

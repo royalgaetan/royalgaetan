@@ -1,12 +1,12 @@
 "use client";
 
-import NavbarButton from "../globals/navbar_button";
 import { navbarElementsList } from "@/utils/constants";
 import ThemeToggleButton from "../globals/theme_toggle_button";
 import { useNavbarContext } from "@/providers/navbar_provider";
 import { usePathname } from "next/navigation";
 import { LuX, LuMenu } from "react-icons/lu";
-import BackButton from "../globals/back_button";
+import NavbarButton from "../ui/navbar_button";
+import BackButton from "../ui/back_button";
 
 const Navbar = () => {
   const { isMobileMenuOpen, setIsMobileMenuOpen } = useNavbarContext();
