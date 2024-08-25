@@ -7,6 +7,7 @@ import Navbar from "@/components/sections/navbar";
 import { NavbarProvider } from "@/providers/navbar_provider";
 import MobileMenuWrapper from "@/components/globals/mobile_menu_wrapper";
 import NextTopLoader from "nextjs-toploader";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Portfolio - Royal G",
@@ -23,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <Analytics />
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <NavbarProvider>
           <Navbar />
