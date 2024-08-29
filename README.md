@@ -5,7 +5,7 @@ A Full-Stack Developer who thrives at the intersection of design, engineering, a
 
 I believe in creating products that not only function seamlessly but also evoke a strong emotional connection with users 🌟
 
-🔗 You can find all my recent projects here: royalgaetan
+🔗 You can find all my recent projects here: [royalgaetan.com](https://royalgaetan.com)
 <br><br><br>
 
 ## 🚀 About Me
