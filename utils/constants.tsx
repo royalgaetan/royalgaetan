@@ -320,6 +320,14 @@ export const skillsList: SkillType[] = [
     height: 50,
   },
   {
+    title: "FlutterFlow",
+    category: "mobile",
+    iconPath: "/svg/languages logos/flutterflow.svg",
+    darkIconPath: "/svg/languages logos/flutterflow white.svg",
+    width: 60,
+    height: 60,
+  },
+  {
     title: "React.js",
     category: "frontend",
     iconPath: "/svg/languages logos/reactjs.svg",
@@ -424,6 +432,14 @@ export const skillsList: SkillType[] = [
     height: 50,
   },
   {
+    title: "Node.js",
+    category: "backend",
+    iconPath: "/svg/languages logos/nodejs.svg",
+    darkIconPath: "/svg/languages logos/nodejs white.svg",
+    width: 50,
+    height: 50,
+  },
+  {
     title: "PHP",
     category: "backend",
     iconPath: "/svg/languages logos/php.svg",
@@ -460,8 +476,24 @@ export const skillsList: SkillType[] = [
     category: "tools",
     iconPath: "/svg/languages logos/codemagic.svg",
     darkIconPath: "/svg/languages logos/codemagic white.svg",
-    width: 50,
-    height: 50,
+    width: 48,
+    height: 48,
+  },
+  {
+    title: "Github Actions",
+    category: "tools",
+    iconPath: "/svg/languages logos/githubactions.svg",
+    darkIconPath: "/svg/languages logos/githubactions white.svg",
+    width: 46,
+    height: 46,
+  },
+  {
+    title: "Jira",
+    category: "tools",
+    iconPath: "/svg/languages logos/jira.svg",
+    darkIconPath: "/svg/languages logos/jira white.svg",
+    width: 47,
+    height: 47,
   },
 ];
 
@@ -752,7 +784,7 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Wesh take events seriously and can't miss your day without a special wish :)",
+            "Wesh takes events seriously and can't miss your day without a special wish :)",
         },
       ],
     },

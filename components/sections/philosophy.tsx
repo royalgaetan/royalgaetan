@@ -56,7 +56,7 @@ const PhilosophySection = () => {
           key={2}
           overallYprogress={scrollYProgress}
           overallYprogressArray={[0.75, 0.95]}
-          text="This gives me the advantage of becoming a specialist in no time while maintaining the flexibility to switch languages or frameworks to better meet my needs or project demands. <br> It’s similar to how a blacksmith or carpenter selects the right tool—a hammer, saw, or a state-of-the-art machine—to get their work done effectively and efficiently."
+          text="This gives me the advantage of becoming a specialist in no time while maintaining the flexibility to switch languages or frameworks to better meet my needs or project demands. <br> It’s similar to how a blacksmith or carpenter selects the right tool—a hammer, saw, or a state-of-the-art machine—to get their work done effectively and efficiently. Ultimately, they are just tools in a toolbox."
         />
       </motion.p>
     </section>
