@@ -81,7 +81,7 @@ export const ProjectFeatureTextContent = ({
           return (
             <motion.p
               key={generatedId}
-              className="mt-2 text-xs dark:text-white text-slate-500 font-normal"
+              className="mt-3 mb-2 text-xs dark:text-white text-slate-500 font-normal"
             >
               {text.content}
             </motion.p>

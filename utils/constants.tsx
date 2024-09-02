@@ -520,27 +520,26 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Wesh is a social media app that meanly focus on events. The main purpose of Wesh is you to NOT miss any important events such as birthdays 🎉 meetings 💼 parties 🎈 etc.",
+            "Wesh is a social media app that meanly focus on events. The main purpose of Wesh is you to NOT miss any important events such as birthdays 🥳, meetings 💼, parties 🎈, etc.",
         },
         {
           type: "p",
           content:
-            "The app doesn't stop there, it keeps you connected with your loved ones, friends and communities to better celebrate events.",
+            "But Wesh goes beyond just reminders. It keeps you engaged with loved ones, friends, and communities, enhancing how you celebrate and connect around these significant events.",
         },
-
         {
           type: "h3",
-          content: "How to try? is it free of use?",
+          content: "How can you try it? Is it free to use?",
         },
         {
           type: "p",
           content:
-            "Sure, Wesh is free of use, including all features. But unfortunately, as it is still considered in his early stage, only is the Android App Version is available. The iOS version will come soon as well :)",
+            "Absolutely! Wesh is completely free to use, with all features available at no cost. Currently, we have the Android version ready for you to explore. The iOS version is on its way and will be available soon!",
         },
         {
           type: "p",
           content:
-            "You can get it via the link below. Or you can simply go through the tabs in this page to walktrough the app without any download :)",
+            "You can download the Android app via the link below. Alternatively, feel free to explore the app's features through the tabs on this page—no download required! 😊",
         },
         {
           type: "buttons-group",
@@ -576,7 +575,7 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Wesh is mainly built with Flutter for the mobile part (android/iOS) and Firebase for the backend and database. In term of time, it took 3 months (full-time work) to get the 1st version 0.1",
+            "Wesh is crafted with passion using Flutter for a seamless mobile experience across Android and iOS, and Firebase powering the backend and database. The journey from concept to the debut version 0.1 took a dedicated 3 months of full-time effort, transforming ideas into reality.",
         },
         {
           type: "h3",
@@ -585,12 +584,12 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Attention span and all life issues, lead to forget even the most important things: spend some quality time with our relatives or simply attend to an event that can change one's entire life: the problem was obvious.",
+            "In a world where distractions abound and life's demands often lead us to forget crucial moments—whether it’s quality time with loved ones or attending life-changing events—the challenge was clear.",
         },
         {
           type: "p",
           content:
-            "Wesh fill this gap by remebering you events that matters, while keeping you connected with your relatives in a social-like space.",
+            "Wesh bridges this gap by reminding you of the events that truly matter while keeping you connected with your loved ones in a dynamic, social-like environment.",
         },
         {
           type: "h3",
@@ -599,12 +598,12 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Building a complete social media from scratch wasn't/isn't a simple task. There are many things to take into account such as time, ressources, audience target, etc.",
+            "Creating a social media platform from the ground up is no small feat. It involves navigating the complexities of time management, resource allocation, and audience targeting.",
         },
         {
           type: "p",
           content:
-            "But after the 1st version released, I could say the important challenges were thinking about the right App Architecture (from the beginning), Figure out an Minimalistic and Unique Design and Time Estimation for each feature to develop: they finally took more than time than expected :(",
+            "Upon releasing the first version, we faced significant hurdles: designing a robust app architecture from the start, crafting a minimalist yet unique design, and accurately estimating development time for each feature—challenges that ultimately took more time than anticipated. But every obstacle was a learning opportunity.",
         },
         {
           type: "h3",
@@ -613,12 +612,12 @@ export const weshProject: FullProject = {
         {
           type: "p",
           content:
-            "Yup! Good things take times. Building and partaking in such adventure is something that worth doing: for sure.",
+            "Great things take time and dedication. Embarking on this journey has been incredibly rewarding and insightful.",
         },
         {
           type: "p",
           content:
-            "The prism of what I've learned goes from Design, User Experience, Project Architecture, Clean Code, Deep Understanding of Algorithms, How Android and iOS really and deeply work as well as Sales & Marketing (how to put the app in front of its audience)",
+            "We’ve gained invaluable knowledge across various domains: from design and user experience to project architecture, clean code, algorithmic depth, the intricate workings of Android and iOS, and even sales and marketing strategies to effectively reach our audience.",
         },
       ],
     },
