@@ -75,7 +75,6 @@ export const ProjectFeatureTextContent = ({
             </motion.h3>
           );
         }
-
         // if "paragraph" then
         else if (text.type === "p") {
           return (
